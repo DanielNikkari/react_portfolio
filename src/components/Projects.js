@@ -26,7 +26,7 @@ export const Projects = () => {
     {
       title: "Platformer, Python",
       description:
-        "A small platformer game to practice Object oriented coding and graphical UI.",
+        "A small platformer game made part of the course Basic course in programmin Y2 to practice Object oriented coding and graphical UI.",
       imgUrl: platformerIcon,
       url: "https://github.com/DanielNikkari/Platformer_Y2-Daniel_Nikkari",
     },
@@ -54,7 +54,9 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Description.</p>
+            <p>
+              Here are some of my projects I have done throughout my studies
+            </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

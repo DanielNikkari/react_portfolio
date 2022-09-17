@@ -238,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+  /*animation: updown 3s linear infinite;*/
 }
 .banner .astronaut {
   width: 110%;
@@ -247,17 +247,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner .welcomemessage {
   position: absolute;
-  top: -10%;
-  right: 29%;
-  width: 30%;
-  height: 30%;
+  top: -33%;
+  right: 45%;
+  width: 90%;
   object-fit: contain;
   scale: 0.9;
 }
+.banner .banner-images {
+  animation: updown 3s linear infinite;
+}
 
 @media (max-width: 600px) {
-  .banner .welcomemessage {
+  /*.banner .welcomemessage {
     display: none;
+  }*/
+  .banner .banner-images {
+    scale: 0.8;
+  }
+  .banner a {
+    margin-bottom: 120px;
   }
 }
 
@@ -271,6 +279,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     100% {
         transform: translateY(-20px);
     }
+}
+
+@media (max-width: 1200px) {
+  .banner .welcomemessage {
+    width: 75%;
+    top: -42%;
+    right: 42%;
+  }
+  .banner .astronaut {
+    width: 90%;
+    height: 90%;
+  }
 }
 
 .wrap {

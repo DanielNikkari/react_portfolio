@@ -1,7 +1,7 @@
 import { useState, userEffect, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
-import headerImg from "../assets/img/small-astronaut.gif"
+import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
 
 export const Banner = () => {
@@ -64,7 +64,7 @@ export const Banner = () => {
               I am a Master's student at Aalto University. I study the programme
               in Computer, Communication and Information Sciences and my major
               is Human-Computer Interaction (HCI) and minor is Computer Science
-              (SC).
+              (CS).
             </p>
             <div className="arrow-link">
               <a href="https://www.linkedin.com/in/daniel-nikkari-9a67b9178/">
@@ -73,12 +73,14 @@ export const Banner = () => {
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img
-              src={welcomeImg}
-              alt="welcome message"
-              className="welcomemessage"
-            />
-            <img src={headerImg} alt="header" className="astronaut" />
+            <div className="banner-images">
+              <img
+                src={welcomeImg}
+                alt="welcome message"
+                className="welcomemessage"
+              />
+              <img src={headerImg} alt="header" className="astronaut" />
+            </div>
           </Col>
         </Row>
       </Container>
