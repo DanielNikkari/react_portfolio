@@ -211,7 +211,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @media (max-width: 600px) {
   .banner h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 .banner p {
