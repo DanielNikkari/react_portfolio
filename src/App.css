@@ -201,6 +201,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (max-width: 600px) {
+  .banner {
+    height: 1250px;
+  }
+}
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
