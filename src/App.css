@@ -73,6 +73,12 @@ nav.navbar img {
   height: 20%;
 }
 
+@media (max-width: 600px) {
+  nav.navbar img {
+    width: 100%;
+  }
+}
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
