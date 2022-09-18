@@ -29,14 +29,16 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <div className="animate__animated animate__slideInDown">
-          <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home">
+          <div className="animate__animated animate__slideInDown">
             <img src={logo} alt="Logo" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          </div>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <span className="navbar-toggler-icon"></span>
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <div className="animate__animated animate__slideInDown">
             <Nav className="me-auto">
               <Nav.Link
                 href="#skills"
@@ -79,7 +81,9 @@ export const NavBar = () => {
                 Work
               </Nav.Link>
             </Nav>
-            <span className="navbar-text">
+          </div>
+          <span className="navbar-text">
+            <div className="animate__animated animate__slideInDown">
               <div className="social-icon">
                 <SocialIcon
                   className="socialicon"
@@ -90,9 +94,9 @@ export const NavBar = () => {
                   url="https://github.com/DanielNikkari"
                 />
               </div>
-            </span>
-          </Navbar.Collapse>
-        </div>
+            </div>
+          </span>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   )
