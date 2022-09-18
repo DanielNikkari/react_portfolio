@@ -12,6 +12,8 @@ import pythonIcon from "../assets/img/icons/Python-icon2.png"
 import googleIcon from "../assets/img/icons/google-icon2.png"
 import microsoftIcon from "../assets/img/icons/microsoft-icon2.png"
 import bgColor from "../assets/img/background/bg-color1.png"
+import "animate.css"
+import TrackVisibility from "react-on-screen"
 
 export const Skills = () => {
   const responsive = {
@@ -40,7 +42,17 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-box">
-              <h2>Skills</h2>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__bounce" : ""
+                    }
+                  >
+                    <h2>Skills</h2>
+                  </div>
+                )}
+              </TrackVisibility>
               <p>
                 Here are some of the skills I have collected through studying,
                 work and hobbies.
