@@ -4,6 +4,8 @@ import nesteLogo from "../assets/img/works/neste.png"
 import schneiderLogo from "../assets/img/works/schneider.png"
 import aaltoLogo from "../assets/img/works/Aalto.png"
 import slushLogo from "../assets/img/works/slush.png"
+import "animate.css"
+import TrackVisibility from "react-on-screen"
 
 export const Works = () => {
   const works = [
@@ -46,7 +48,15 @@ export const Works = () => {
   return (
     <section className="work" id="work">
       <Container>
-        <h2>Work</h2>
+        <TrackVisibility>
+          {({ isVisible }) => (
+            <div
+              className={isVisible ? "animate__animated animate__bounce" : ""}
+            >
+              <h2>Work</h2>
+            </div>
+          )}
+        </TrackVisibility>
         <Row md={3}>
           {works.map((work, index) => {
             return (

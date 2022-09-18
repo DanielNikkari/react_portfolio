@@ -6,6 +6,8 @@ import planeWarfareIcon from "../assets/img/projects/plane-warfare-icon4.png"
 import platformerIcon from "../assets/img/projects/y2-icon3.png"
 import towerDefenseIcon from "../assets/img/projects/tower-defense-icon3.png"
 import quizzerIcon from "../assets/img/projects/quizzer-icon3.png"
+import "animate.css"
+import TrackVisibility from "react-on-screen"
 
 export const Projects = () => {
   const projects = [
@@ -53,7 +55,17 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__bounce" : ""
+                  }
+                >
+                  <h2>Projects</h2>
+                </div>
+              )}
+            </TrackVisibility>
             <p>
               Here are some of my projects I have done throughout my studies
             </p>

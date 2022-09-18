@@ -13,8 +13,8 @@ export const Footer = () => {
             <div
               className={
                 isVisible
-                  ? "animate__animated animate__fadeInLeft"
-                  : "animate__animated animate__fadeOutRight"
+                  ? "animate__animated animate__fadeInDown"
+                  : "animate__animated animate__fadeOutUp"
               }
             >
               <div className="thank-you-msg-container">

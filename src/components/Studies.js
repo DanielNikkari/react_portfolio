@@ -1,6 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { Study } from "./Study"
 import bgColor from "../assets/img/background/bg-color1.png"
+import "animate.css"
+import TrackVisibility from "react-on-screen"
 
 export const Studies = () => {
   const studies = [
@@ -33,7 +35,15 @@ export const Studies = () => {
   return (
     <section className="studies" id="studies">
       <Container>
-        <h2>Studies</h2>
+        <TrackVisibility>
+          {({ isVisible }) => (
+            <div
+              className={isVisible ? "animate__animated animate__bounce" : ""}
+            >
+              <h2>Studies</h2>
+            </div>
+          )}
+        </TrackVisibility>
         <Row>
           <Col>
             {studies.map((study, index) => {
