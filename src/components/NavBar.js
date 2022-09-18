@@ -27,9 +27,9 @@ export const NavBar = () => {
   }
 
   return (
-    <div className="animate__animated animate__slideInDown">
-      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
-        <Container>
+    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+      <Container>
+        <div className="animate__animated animate__slideInDown">
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
           </Navbar.Brand>
@@ -92,8 +92,8 @@ export const NavBar = () => {
               </div>
             </span>
           </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
+        </div>
+      </Container>
+    </Navbar>
   )
 }
