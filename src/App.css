@@ -746,6 +746,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 300px;
   }
 }
+@media (max-width: 420px) {
+  .footer .goodbye-astronaut {
+    position: absolute;
+    scale: 0.35;
+    top: -70%;
+    right: -80%;
+  }
+  .footer .goodbye-message {
+    top: -53%;
+    right: -108%;
+    object-fit: contain;
+    scale: 0.3;
+  }
+  .footer .footer-goodbye-img {
+    width: 60%;
+    margin: auto;
+    height: 300px;
+  }
+}
 
 .App {
   text-align: center;
