@@ -3,6 +3,8 @@ import logo from "../assets/img/logo-planet.png"
 import { SocialIcon } from "react-social-icons"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
+import goodbyeMessage from "../assets/img/goodbye-message.png"
+import lilAstronaut from "../assets/img/lil-astronaut-footer.png"
 
 export const Footer = () => {
   return (
@@ -17,8 +19,17 @@ export const Footer = () => {
                   : "animate__animated animate__fadeOutUp"
               }
             >
-              <div className="thank-you-msg-container">
-                <h1 className="thank-you-msg">Thank you for visiting!</h1>
+              <div className="footer-goodbye-img">
+                <img
+                  src={lilAstronaut}
+                  alt="goodbye"
+                  className="goodbye-astronaut"
+                />
+                <img
+                  src={goodbyeMessage}
+                  alt="goodbye message"
+                  className="goodbye-message"
+                />
               </div>
             </div>
           )}

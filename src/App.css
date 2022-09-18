@@ -650,7 +650,83 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   scale: 0.7;
 }
+.footer .goodbye-astronaut {
+  scale: 0.5;
+  position: absolute;
+  top: -55%;
+  right: 12%;
+}
 
+.footer .goodbye-message {
+  position: absolute;
+  top: -58%;
+  right: -5%;
+  object-fit: contain;
+  scale: 0.5;
+}
+.footer .footer-goodbye-img {
+  animation: updown 3s linear infinite;
+  width: 60%;
+  margin: auto;
+  height: 300px;
+}
+@media (max-width: 1400px) {
+  .footer .goodbye-astronaut {
+    scale: 0.5;
+    top: -55%;
+    right: 0%;
+  }
+  
+  .footer .goodbye-message {
+    top: -55%;
+    right: -20%;
+    object-fit: contain;
+    scale: 0.5;
+  }
+  .footer .footer-goodbye-img {
+    width: 60%;
+    margin: auto;
+    height: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer .goodbye-astronaut {
+    scale: 0.4;
+    top: -55%;
+    right: -10%;
+  }
+  
+  .footer .goodbye-message {
+    top: -45%;
+    right: -32%;
+    object-fit: contain;
+    scale: 0.4;
+  }
+  .footer .footer-goodbye-img {
+    width: 60%;
+    margin: auto;
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .footer .goodbye-astronaut {
+    position: absolute;
+    scale: 0.4;
+    top: -70%;
+    right: -40%;
+  }
+  .footer .goodbye-message {
+    top: -59%;
+    right: -68%;
+    object-fit: contain;
+    scale: 0.4;
+  }
+  .footer .footer-goodbye-img {
+    width: 60%;
+    margin: auto;
+    height: 300px;
+  }
+}
 
 .App {
   text-align: center;
