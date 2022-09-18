@@ -10,8 +10,8 @@ export const Study = ({ name, programme, place, time, major, minor }) => {
           <div
             className={
               isVisible
-                ? "animate__animated animate__fadeInDown"
-                : "animate__animated animate__fadeOutDown"
+                ? "animate__animated animate__fadeInLeft"
+                : "animate__animated animate__fadeOutRight"
             }
           >
             <div className="study">
