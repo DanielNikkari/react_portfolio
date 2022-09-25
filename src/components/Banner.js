@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
+import bannerVid from "../assets/vid/banner-video.mp4"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -84,6 +85,9 @@ export const Banner = () => {
           </Col>
         </Row>
       </Container>
+      <video width="1920" height="1080" autoPlay muted loop id="banner-vid">
+        <source src={bannerVid} type="video/mp4" />
+      </video>
     </section>
   )
 }
