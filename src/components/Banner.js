@@ -88,14 +88,14 @@ export const Banner = () => {
       <video
         width="1920"
         height="1080"
+        type="video/mp4"
         autoPlay
         muted
         loop
         playsinline
         id="banner-vid"
-      >
-        <source src={bannerVid} type="video/mp4" />
-      </video>
+        src={bannerVid}
+      />
     </section>
   )
 }
