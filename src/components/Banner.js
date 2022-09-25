@@ -85,7 +85,15 @@ export const Banner = () => {
           </Col>
         </Row>
       </Container>
-      <video width="1920" height="1080" autoPlay muted loop id="banner-vid">
+      <video
+        width="1920"
+        height="1080"
+        autoPlay
+        muted
+        loop
+        playsinline
+        id="banner-vid"
+      >
         <source src={bannerVid} type="video/mp4" />
       </video>
     </section>
