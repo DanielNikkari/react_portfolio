@@ -46,7 +46,7 @@ export const Banner = () => {
     }
   }
 
-  useEffect(() => {
+  const playVideoIfPaused = () => {
     const videoElement = document.getElementById("banner-vid")
     if (videoElement.playing) {
       // video is already playing so do nothing
@@ -55,7 +55,7 @@ export const Banner = () => {
       // so play video now
       videoElement.play()
     }
-  })
+  }
 
   return (
     <section className="banner" id="home">
@@ -104,6 +104,7 @@ export const Banner = () => {
         playsinline="playsinline"
         id="banner-vid"
         src={bannerVid}
+        onLoad={() => playVideoIfPaused}
       />
     </section>
   )
