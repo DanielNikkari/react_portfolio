@@ -6,17 +6,6 @@ import reportWebVitals from "./reportWebVitals"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
-document.addEventListener("click touchstart", () => {
-  const videoElement = document.getElementById("banner-vid")
-  if (videoElement.playing) {
-    // video is already playing so do nothing
-  } else {
-    // video is not playing
-    // so play video now
-    videoElement.play()
-  }
-})
-
 root.render(
   <React.StrictMode>
     <App />
