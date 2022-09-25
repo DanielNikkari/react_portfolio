@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
-import bannerVid from "../assets/vid/banner-video.mp4"
+import bannerVid from "../assets/vid/banner-video2.mp4"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
