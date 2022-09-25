@@ -46,6 +46,17 @@ export const Banner = () => {
     }
   }
 
+  document.addEventListener("click touchstart", () => {
+    const videoElement = document.getElementById("banner-vid")
+    if (videoElement.playing) {
+      // video is already playing so do nothing
+    } else {
+      // video is not playing
+      // so play video now
+      videoElement.play()
+    }
+  })
+
   return (
     <section className="banner" id="home">
       <Container>
