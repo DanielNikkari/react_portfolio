@@ -88,7 +88,6 @@ export const Banner = () => {
       <video
         type="video/mp4"
         autoPlay="autoPlay"
-        controls={false}
         muted="muted"
         loop="loop"
         playsinline="playsinline"
