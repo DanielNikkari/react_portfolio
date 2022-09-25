@@ -104,7 +104,7 @@ export const Banner = () => {
         playsinline="playsinline"
         id="banner-vid"
         src={bannerVid}
-        onLoad={() => playVideoIfPaused}
+        onLoad={() => playVideoIfPaused()}
       />
     </section>
   )
