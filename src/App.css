@@ -216,9 +216,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 @media (max-width: 510px) {
-  .banner {
+  /* .banner {
     background-image: url('./assets/img/banner-bg-animated-mobile.gif');
-  }
+  } */
 }
 .banner h1 {
   font-size: 65px;
