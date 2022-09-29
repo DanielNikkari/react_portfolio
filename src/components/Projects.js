@@ -55,17 +55,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__bounce" : ""
-                  }
-                >
-                  <h2>Projects</h2>
-                </div>
-              )}
-            </TrackVisibility>
+            <h2>Projects</h2>
             <p>
               Here are some of my projects I have done throughout my studies
             </p>
