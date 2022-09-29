@@ -62,10 +62,10 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              I am a Master's student at Aalto University. I study the programme
+              I am a Master's student at Aalto University studying the programme
               in Computer, Communication and Information Sciences and my major
-              is Human-Computer Interaction (HCI) and minor is Computer Science
-              (CS).
+              is Human-Computer Interaction (HCI) and my minor is Computer
+              Science (CS).
             </p>
             <div className="arrow-link">
               <a href="https://www.linkedin.com/in/daniel-nikkari-9a67b9178/">

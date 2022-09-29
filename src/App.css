@@ -621,6 +621,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px !important;
   font-weight: 400 !important;
 }
+@media (max-width: 1400px) {
+  .work-card {
+    height: 390px !important;
+  }
+}
 @media (max-width: 1200px) {
   .card-title {
     font-size: 25px !important;
