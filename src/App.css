@@ -601,6 +601,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Work Styling ************/
+.work {
+  padding: 0;
+  margin: 0;
+}
+.work .container {
+  padding: 0;
+  margin: 0;
+}
+.work-container {
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  width: 100vw;
+}
 .work h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -608,6 +623,63 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: cyan;
   margin-bottom: 1em;
 }
+.work p {
+  color: #B8B888;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+.works-slider {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.works-slider .item {
+  padding: 5px;
+  margin: 10px;
+  background: #151515df;
+  border-radius: 1em;
+  height: 500px;
+}
+@media (max-width: 460px) {
+  .works-slider .item {
+    height: 400px;
+  }
+  .img-container {
+    height: auto;
+  }
+}
+.img-container {
+  height: 270px;
+}
+.works-slider .item img {
+  width: 90%;
+  /* margin: 0 auto 15px auto;
+  padding: 30px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+  display: block;
+}
+
+.works-slider h5 {
+  font-weight: 700;
+  color: springgreen;
+}
+.works-slider .work-time {
+  color: cyan;
+}
+.work h2 {
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  color: cyan;
+  margin-bottom: 1em;
+/* }
 .work-card {
   background-color: #765bad83 !important;
   height: 380px !important;
@@ -647,7 +719,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 90%;
   margin: auto;
   padding: 10px;
-}
+} */
 
 /************ Footer Styling ************/
 

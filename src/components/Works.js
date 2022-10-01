@@ -6,6 +6,8 @@ import aaltoLogo from "../assets/img/works/Aalto.png"
 import slushLogo from "../assets/img/works/slush.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
 
 export const Works = () => {
   const works = [
@@ -45,19 +47,65 @@ export const Works = () => {
       logo: slushLogo,
     },
   ]
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  }
   return (
     <section className="work" id="work">
-      <Container>
-        <TrackVisibility>
-          {({ isVisible }) => (
-            <div
-              className={isVisible ? "animate__animated animate__bounce" : ""}
+      <Container className="container">
+        <div className="work-container">
+          <TrackVisibility>
+            {({ isVisible }) => (
+              <div
+                className={isVisible ? "animate__animated animate__bounce" : ""}
+              >
+                <h2>Work</h2>
+              </div>
+            )}
+          </TrackVisibility>
+          <p>Here's my most recent work experience.</p>
+          <Col>
+            <Carousel
+              responsive={responsive}
+              infinite={true}
+              className="works-slider"
             >
-              <h2>Work</h2>
-            </div>
-          )}
-        </TrackVisibility>
-        <Row md={3}>
+              {works.map((work) => {
+                return (
+                  <div className="item">
+                    <div className="img-container">
+                      <img src={work.logo} alt={"work logo"} />'
+                    </div>
+                    <h5>{work.name}</h5>
+                    <p>
+                      <span className="work-time">{work.title}</span>
+                      <br />
+                      {work.time}
+                      <br />
+                      {work.place}
+                    </p>
+                  </div>
+                )
+              })}
+            </Carousel>
+          </Col>
+        </div>
+
+        {/* <Row md={3}>
           {works.map((work, index) => {
             return (
               <Work
@@ -70,7 +118,7 @@ export const Works = () => {
               />
             )
           })}
-        </Row>
+        </Row> */}
       </Container>
     </section>
   )
