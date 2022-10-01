@@ -679,8 +679,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   color: cyan;
   margin-bottom: 1em;
-/* }
-.work-card {
+}
+/* .work-card {
   background-color: #765bad83 !important;
   height: 380px !important;
 }
