@@ -4,6 +4,8 @@ import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
 import bannerVid from "../assets/vid/banner-video2.mp4"
+import "animate.css"
+import TrackVisibility from "react-on-screen"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -75,11 +77,23 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="banner-images">
-              <img
-                src={welcomeImg}
-                alt="welcome message"
-                className="welcomemessage"
-              />
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible
+                        ? "animate__animated animate__slideInUp"
+                        : "animate__animated animate__slideOutUp"
+                    }
+                  >
+                    <img
+                      src={welcomeImg}
+                      alt="welcome message"
+                      className="welcomemessage"
+                    />
+                  </div>
+                )}
+              </TrackVisibility>
               <img src={headerImg} alt="header" className="astronaut" />
             </div>
           </Col>
