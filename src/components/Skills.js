@@ -11,6 +11,7 @@ import cppIcon from "../assets/img/icons/Cpp-icon2.png"
 import pythonIcon from "../assets/img/icons/Python-icon2.png"
 import googleIcon from "../assets/img/icons/google-icon2.png"
 import microsoftIcon from "../assets/img/icons/microsoft-icon2.png"
+import powerbiIcon from "../assets/img/icons/powerbiIcon.png"
 import bgColor from "../assets/img/background/bg-color1.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
@@ -101,6 +102,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={microsoftIcon} alt="image" />
                   <h5>Microsoft 365</h5>
+                </div>
+                <div className="item">
+                  <img src={powerbiIcon} alt="image" />
+                  <h5>Power BI</h5>
                 </div>
               </Carousel>
             </div>
