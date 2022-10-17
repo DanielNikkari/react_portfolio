@@ -12,6 +12,7 @@ import pythonIcon from "../assets/img/icons/Python-icon2.png"
 import googleIcon from "../assets/img/icons/google-icon2.png"
 import microsoftIcon from "../assets/img/icons/microsoft-icon2.png"
 import powerbiIcon from "../assets/img/icons/power-bi-icon.png"
+import gitIcons from "../assets/img/icons/git-icons.png"
 import bgColor from "../assets/img/background/bg-color1.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
@@ -70,6 +71,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={stakeholderMappingIcon} alt="image" />
                   <h5>Stakeholder Mapping</h5>
+                </div>
+                <div className="item">
+                  <img src={gitIcons} alt="image" />
+                  <h5>Git</h5>
                 </div>
                 <div className="item">
                   <img src={javascriptIcon} alt="image" />
