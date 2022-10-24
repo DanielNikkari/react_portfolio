@@ -549,6 +549,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
   color: #fff;
 }
+.disablelink {
+  pointer-events: none;
+}
 
 /************ Studies Styling ************/
 .studies h2 {

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cac065d.css",
-    "main.js": "/static/js/main.04edfd31.js",
+    "main.css": "/static/css/main.1a42fef6.css",
+    "main.js": "/static/js/main.8baf9163.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -12,6 +12,7 @@
     "static/media/power-bi-icon.png": "/static/media/power-bi-icon.6acba24a2fd42c814e21.png",
     "static/media/stakeholder-mapping.png": "/static/media/stakeholder-mapping.69dd6b455feac03bb8e9.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.8a8710a72a5f9054038b.png",
+    "static/media/portfolio-project.png": "/static/media/portfolio-project.0be6f8354595315bb61e.png",
     "static/media/tower-defense-icon3.png": "/static/media/tower-defense-icon3.44957ae03eda9383e897.png",
     "static/media/plane-warfare-icon4.png": "/static/media/plane-warfare-icon4.9226397bc87408d8efe9.png",
     "static/media/react-icon2.png": "/static/media/react-icon2.5f861980382dbf796702.png",
@@ -40,12 +41,12 @@
     "static/media/logo-planet.svg": "/static/media/logo-planet.b69dae5dac1ccf144b419dffe9b2564f.svg",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.5cac065d.css.map": "/static/css/main.5cac065d.css.map",
-    "main.04edfd31.js.map": "/static/js/main.04edfd31.js.map",
+    "main.1a42fef6.css.map": "/static/css/main.1a42fef6.css.map",
+    "main.8baf9163.js.map": "/static/js/main.8baf9163.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cac065d.css",
-    "static/js/main.04edfd31.js"
+    "static/css/main.1a42fef6.css",
+    "static/js/main.8baf9163.js"
   ]
 }
