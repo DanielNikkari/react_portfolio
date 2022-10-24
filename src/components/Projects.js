@@ -6,11 +6,19 @@ import planeWarfareIcon from "../assets/img/projects/plane-warfare-icon4.png"
 import platformerIcon from "../assets/img/projects/y2-icon3.png"
 import towerDefenseIcon from "../assets/img/projects/tower-defense-icon3.png"
 import quizzerIcon from "../assets/img/projects/quizzer-icon3.png"
+import portfolioIcon from "../assets/img/projects/portfolio-project.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Portfolio, React.js & Node.js",
+      description:
+        "This portfolio was created utilizing React.js & Node.js, and deployed on Heroku.",
+      imgUrl: portfolioIcon,
+      url: "",
+    },
     {
       title: "Qu?zzer, Full stack",
       description:
