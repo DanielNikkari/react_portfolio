@@ -7,6 +7,7 @@ import platformerIcon from "../assets/img/projects/y2-icon3.png"
 import towerDefenseIcon from "../assets/img/projects/tower-defense-icon3.png"
 import quizzerIcon from "../assets/img/projects/quizzer-icon3.png"
 import portfolioIcon from "../assets/img/projects/portfolio-project.png"
+import urlShortenerIcon from "../assets/img/projects/url-shortener-icon.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 
@@ -20,11 +21,18 @@ export const Projects = () => {
       url: "",
     },
     {
-      title: "Qu?zzer, Full stack",
+      title: "Qu?zzer, JavaScript Deno Oak",
       description:
         "Quiz web application created on the course Web Software Development. The application uses Deno and Oak and has a three-tier architecture: client, server and database. In addition, The application has four layers: views, controllers, services, database.",
       imgUrl: quizzerIcon,
       url: "https://github.com/DanielNikkari/WSD_Project2",
+    },
+    {
+      title: "Url shortener: Deno Oak, Node Express.js, Python Flask",
+      description:
+        "Three clones of bit.ly url shortener made in three different frameworks: JavaScript Deno Oak, JavaScript Node Express.js, and Python Flask. Composed using Docker-compose. All applications use Postgres as the database. Both JavaScript applications use Eta templates and Python uses Jinja template for the rendering.",
+      imgUrl: urlShortenerIcon,
+      url: "https://github.com/DanielNikkari/bitly_clones",
     },
     {
       title: "Tower Defense, C++",
