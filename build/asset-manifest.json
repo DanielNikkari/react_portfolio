@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.39e1d65f.css",
-    "main.js": "/react_portfolio/static/js/main.211bb308.js",
+    "main.js": "/react_portfolio/static/js/main.2010f12a.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -30,6 +30,7 @@
     "static/media/stakeholder-management.png": "/react_portfolio/static/media/stakeholder-management.8ea37e76f9e020d037bd.png",
     "static/media/JavaScript-icon2.png": "/react_portfolio/static/media/JavaScript-icon2.980c602c1ee61aaf92b7.png",
     "static/media/goodbye-message.png": "/react_portfolio/static/media/goodbye-message.7af727c8d4de2a11ae82.png",
+    "static/media/url-shortener-icon.png": "/react_portfolio/static/media/url-shortener-icon.3c753a46968779a907cb.png",
     "static/media/quizzer-icon3.png": "/react_portfolio/static/media/quizzer-icon3.9bc22da7addb39dfec57.png",
     "static/media/logo-planet.png": "/react_portfolio/static/media/logo-planet.84a978c7ad084047f476.png",
     "static/media/bachelors-thesis-icon3.png": "/react_portfolio/static/media/bachelors-thesis-icon3.23bb4ddd696c661ca417.png",
@@ -42,11 +43,11 @@
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
     "main.39e1d65f.css.map": "/react_portfolio/static/css/main.39e1d65f.css.map",
-    "main.211bb308.js.map": "/react_portfolio/static/js/main.211bb308.js.map",
+    "main.2010f12a.js.map": "/react_portfolio/static/js/main.2010f12a.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39e1d65f.css",
-    "static/js/main.211bb308.js"
+    "static/js/main.2010f12a.js"
   ]
 }
