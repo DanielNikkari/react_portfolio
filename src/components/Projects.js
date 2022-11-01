@@ -14,9 +14,9 @@ import TrackVisibility from "react-on-screen"
 export const Projects = () => {
   const projects = [
     {
-      title: "Portfolio, React.js & Node.js",
+      title: "Portfolio, React.js",
       description:
-        "This portfolio was created utilizing React.js & Node.js, and deployed on Heroku.",
+        "This portfolio was created utilizing React.js",
       imgUrl: portfolioIcon,
       url: "",
     },
