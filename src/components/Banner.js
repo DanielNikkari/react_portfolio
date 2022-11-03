@@ -36,7 +36,7 @@ export const Banner = () => {
 
   isLoaded ? setTimeout(() => {
     enableBodyScroll(document)
-  }, 1000) : disableBodyScroll(document)
+  }, 800) : disableBodyScroll(document)
 
   const tick = () => {
     let i = loopNum % toRotate.length

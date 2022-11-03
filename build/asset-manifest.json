@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.003752f0.css",
-    "main.js": "/react_portfolio/static/js/main.b7cb0b67.js",
+    "main.js": "/react_portfolio/static/js/main.723c9f73.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -43,11 +43,11 @@
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
     "main.003752f0.css.map": "/react_portfolio/static/css/main.003752f0.css.map",
-    "main.b7cb0b67.js.map": "/react_portfolio/static/js/main.b7cb0b67.js.map",
+    "main.723c9f73.js.map": "/react_portfolio/static/js/main.723c9f73.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.003752f0.css",
-    "static/js/main.b7cb0b67.js"
+    "static/js/main.723c9f73.js"
   ]
 }
