@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.39e1d65f.css",
-    "main.js": "/react_portfolio/static/js/main.2010f12a.js",
+    "main.css": "/react_portfolio/static/css/main.05df073b.css",
+    "main.js": "/react_portfolio/static/js/main.a2d1d216.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -42,12 +42,12 @@
     "static/media/logo-planet.svg": "/react_portfolio/static/media/logo-planet.b69dae5dac1ccf144b419dffe9b2564f.svg",
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
-    "main.39e1d65f.css.map": "/react_portfolio/static/css/main.39e1d65f.css.map",
-    "main.2010f12a.js.map": "/react_portfolio/static/js/main.2010f12a.js.map",
+    "main.05df073b.css.map": "/react_portfolio/static/css/main.05df073b.css.map",
+    "main.a2d1d216.js.map": "/react_portfolio/static/js/main.a2d1d216.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39e1d65f.css",
-    "static/js/main.2010f12a.js"
+    "static/css/main.05df073b.css",
+    "static/js/main.a2d1d216.js"
   ]
 }
