@@ -4,6 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
 import bannerVid from "../assets/vid/banner-video2.mp4"
+import logo from "../assets/img/logo-planet.svg"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -12,6 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState("")
   const period = 2000
   const [delta, setDelta] = useState(300 - Math.random() * 100)
+  const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -22,6 +24,14 @@ export const Banner = () => {
       clearInterval(ticker)
     }
   }, [text])
+
+  useEffect(() => {
+    let bgVideo = document.getElementById('banner-vid')
+    if (bgVideo.readyState === 4) {
+      setIsLoaded(true)
+    }
+    console.log(isLoaded)
+  })
 
   const tick = () => {
     let i = loopNum % toRotate.length
@@ -90,10 +100,14 @@ export const Banner = () => {
         autoPlay="autoPlay"
         muted="muted"
         loop="loop"
-        playsinline="playsinline"
+        playsInline="playsInline"
         id="banner-vid"
         src={bannerVid}
       />
+      <div className={isLoaded ? "removeLoadingScreen" : "loadingScreen"}>
+          <img className src={logo} alt="Logo" />
+          <p>Loading...</p>
+      </div>
     </section>
   )
 }

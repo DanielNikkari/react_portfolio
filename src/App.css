@@ -895,3 +895,97 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transform: rotate(360deg);
   }
 }
+
+.loadingScreen {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black !important;
+  z-index: 1000;
+}
+
+.loadingScreen img {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  width: 10%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+.loadingScreen p {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+  width: 10%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+.removeLoadingScreen {
+  /* display: none !important; */
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black !important;
+  z-index: 1000;
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+.removeLoadingScreen img {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%);
+  width: 11%;
+  animation: bounceFade 1s ease-in-out forwards;
+}
+
+.removeLoadingScreen p {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+  width: 10%;
+  animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation {
+  0% {width: 10%;}
+  50% {width: 12%;}
+  100% {width: 10%;}
+}
+
+@keyframes fadeOut {
+  0% {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+    z-index: 1000;
+  }
+  90% {}
+  100% {
+    /* height: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0) !important; */
+    display: none !important;
+  }
+}
+
+@keyframes bounceFade {
+  0% {width: 11%;}
+  40% {width: 15%;}
+  50% {width: 15%;}
+  80% {opacity: 100%;}
+  98% {
+    width: 0%;
+    opacity: 0;
+  }
+}
