@@ -921,7 +921,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 60%;
   transform: translateX(-50%);
   width: 10%;
-  animation: loadingAnimation 3s ease-in-out infinite;
+  /* animation: loadingAnimation 3s ease-in-out infinite; */
 }
 
 .removeLoadingScreen {
@@ -933,7 +933,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   background-color: black !important;
   z-index: 1000;
-  animation: fadeOut 1s ease-in-out forwards;
+  animation: fadeOutLoadingScreen 1s ease-in-out forwards;
 }
 
 .removeLoadingScreen img {
@@ -951,7 +951,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 60%;
   transform: translateX(-50%);
   width: 10%;
-  animation: loadingAnimation 3s ease-in-out infinite;
+  animation: removeLoadingText 0.2s ease-in-out forwards;
+  
 }
 
 @keyframes loadingAnimation {
@@ -960,21 +961,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {width: 10%;}
 }
 
-@keyframes fadeOut {
-  0% {
-    display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black !important;
-    z-index: 1000;
-  }
-  90% {}
+@keyframes fadeOutLoadingScreen {
+  80% {opacity: 1; z-index: 1000;}
   100% {
-    /* height: 0;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0) !important; */
+    z-index: -1;
+    overflow: hidden;
     display: none !important;
   }
 }
@@ -989,3 +981,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     opacity: 0;
   }
 }
+
+@keyframes removeLoadingText {
+  100% {opacity: 0;}
+}
+
+@media (max-width: 425px) {
+  .loadingScreen {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+    z-index: 1000;
+  }
+  .loadingScreen img {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-30%);
+    scale: 2;
+    animation: loadingAnimation 3s ease-in-out infinite;
+  }
+  .loadingScreen p {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+  }
+  .removeLoadingScreen img {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-30%);
+    scale: 2;
+    width: 11%;
+    animation: bounceFade 1s ease-in-out forwards;
+  }
+  
+  .removeLoadingScreen p {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    animation: removeLoadingText 0.2s ease-in-out forwards;
+    
+  }
+} 
