@@ -15,6 +15,8 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100)
   const [isLoaded, setIsLoaded] = useState(false)
 
+  document.body.classList.add("no-scroll")
+
   useEffect(() => {
     const ticker = setInterval(() => {
       tick()
@@ -29,6 +31,7 @@ export const Banner = () => {
     let bgVideo = document.getElementById('banner-vid')
     if (bgVideo.readyState === 4) {
       setIsLoaded(true)
+      document.body.classList.remove("no-scroll")
     }
     console.log(isLoaded)
   })
