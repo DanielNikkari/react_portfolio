@@ -5,6 +5,7 @@ import headerImg from "../assets/img/lil-astronaut3.gif"
 import welcomeImg from "../assets/img/welcome-message-6.png"
 import bannerVid from "../assets/vid/banner-video2.mp4"
 import logo from "../assets/img/logo-planet.svg"
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
@@ -14,8 +15,6 @@ export const Banner = () => {
   const period = 2000
   const [delta, setDelta] = useState(300 - Math.random() * 100)
   const [isLoaded, setIsLoaded] = useState(false)
-
-  document.body.classList.add("no-scroll")
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -31,10 +30,13 @@ export const Banner = () => {
     let bgVideo = document.getElementById('banner-vid')
     if (bgVideo.readyState === 4) {
       setIsLoaded(true)
-      document.body.classList.remove("no-scroll")
     }
     console.log(isLoaded)
   })
+
+  isLoaded ? setTimeout(() => {
+    enableBodyScroll(document)
+  }, 1000) : disableBodyScroll(document)
 
   const tick = () => {
     let i = loopNum % toRotate.length
