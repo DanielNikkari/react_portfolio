@@ -603,6 +603,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 600;
 }
 
+.scale_animation {
+  animation: scale_up_down 0.5s ease-in-out;
+}
+
+@keyframes scale_up_down {
+  0% {scale: 1;}
+  50% {scale: 0.95;}
+  0% {scale: 1;}
+}
+
 /************ Work Styling ************/
 .work {
   padding: 0;
