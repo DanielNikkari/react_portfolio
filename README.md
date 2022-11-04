@@ -1,9 +1,9 @@
 # Updating the portfolio page
 
-1. run command: ´npm run deploy´
-2. run command: ´git add .´
-3. run command: ´git commit -m "message"´
-4. run command: ´git push -u origin main´
+1. run command: `npm run deploy`
+2. run command: `git add .`
+3. run command: `git commit -m "message"`
+4. run command: `git push -u origin main`
 
 
 # Getting Started with Create React App
