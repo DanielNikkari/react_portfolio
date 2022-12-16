@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.7531b936.css",
-    "main.js": "/react_portfolio/static/js/main.fdd018bf.js",
+    "main.js": "/react_portfolio/static/js/main.44caa2b6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -12,7 +12,6 @@
     "static/media/power-bi-icon.png": "/react_portfolio/static/media/power-bi-icon.6acba24a2fd42c814e21.png",
     "static/media/stakeholder-mapping.png": "/react_portfolio/static/media/stakeholder-mapping.69dd6b455feac03bb8e9.png",
     "static/media/footer-bg.png": "/react_portfolio/static/media/footer-bg.8a8710a72a5f9054038b.png",
-    "static/media/portfolio-project.png": "/react_portfolio/static/media/portfolio-project.0be6f8354595315bb61e.png",
     "static/media/tower-defense-icon3.png": "/react_portfolio/static/media/tower-defense-icon3.44957ae03eda9383e897.png",
     "static/media/plane-warfare-icon4.png": "/react_portfolio/static/media/plane-warfare-icon4.9226397bc87408d8efe9.png",
     "static/media/react-icon2.png": "/react_portfolio/static/media/react-icon2.5f861980382dbf796702.png",
@@ -29,6 +28,7 @@
     "static/media/git-icons.png": "/react_portfolio/static/media/git-icons.49589633437f16dc88b2.png",
     "static/media/stakeholder-management.png": "/react_portfolio/static/media/stakeholder-management.8ea37e76f9e020d037bd.png",
     "static/media/JavaScript-icon2.png": "/react_portfolio/static/media/JavaScript-icon2.980c602c1ee61aaf92b7.png",
+    "static/media/portfolio-project2.png": "/react_portfolio/static/media/portfolio-project2.13692c811a1461c0cbf2.png",
     "static/media/goodbye-message.png": "/react_portfolio/static/media/goodbye-message.7af727c8d4de2a11ae82.png",
     "static/media/url-shortener-icon.png": "/react_portfolio/static/media/url-shortener-icon.3c753a46968779a907cb.png",
     "static/media/quizzer-icon3.png": "/react_portfolio/static/media/quizzer-icon3.9bc22da7addb39dfec57.png",
@@ -36,7 +36,7 @@
     "static/media/bachelors-thesis-icon3.png": "/react_portfolio/static/media/bachelors-thesis-icon3.23bb4ddd696c661ca417.png",
     "static/media/slush.png": "/react_portfolio/static/media/slush.7bb9f24e2ba7dd791125.png",
     "static/media/Aalto-white2.png": "/react_portfolio/static/media/Aalto-white2.55d87efeac9efa9f34a7.png",
-    "static/media/treehugger2.png": "/react_portfolio/static/media/treehugger2.57753d26a012b2a32233.png",
+    "static/media/treehugger3.png": "/react_portfolio/static/media/treehugger3.9ab1a99b6bb6fabf9768.png",
     "static/media/schneider.png": "/react_portfolio/static/media/schneider.623e5c1c78f4fc9307e2.png",
     "static/media/revicons.eot": "/react_portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react_portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -44,11 +44,11 @@
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
     "main.7531b936.css.map": "/react_portfolio/static/css/main.7531b936.css.map",
-    "main.fdd018bf.js.map": "/react_portfolio/static/js/main.fdd018bf.js.map",
+    "main.44caa2b6.js.map": "/react_portfolio/static/js/main.44caa2b6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7531b936.css",
-    "static/js/main.fdd018bf.js"
+    "static/js/main.44caa2b6.js"
   ]
 }
