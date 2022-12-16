@@ -87,9 +87,9 @@ export const Works = () => {
               slidesToSlide={1}
               className="works-slider"
             >
-              {works.map((work) => {
+              {works.map((work, index) => {
                 return (
-                  <div className="item">
+                  <div className="item" key={index}>
                     <div className="img-container">
                       <img src={work.logo} alt={"work logo"} />'
                     </div>

@@ -14,7 +14,8 @@ export const Banner = () => {
   const [text, setText] = useState("")
   const period = 2000
   const [delta, setDelta] = useState(300 - Math.random() * 100)
-  const [isLoaded, setIsLoaded] = useState(false)
+  // const [isLoaded, setIsLoaded] = useState(false)
+  const [bgVideo, setBgVideo] = useState({ readyState: 0 })
 
   useEffect(() => {
     const ticker = setInterval(() => {
@@ -26,15 +27,20 @@ export const Banner = () => {
     }
   }, [text])
 
-  useEffect(() => {
-    let bgVideo = document.getElementById('banner-vid')
-    if (bgVideo.readyState === 4) {
-      setIsLoaded(true)
-    }
-    console.log(isLoaded)
-  })
+  // const isLoaded = bgVideo.readyState === 4 ? true : false
 
-  isLoaded ? setTimeout(() => {
+  useEffect(() => {
+    // let bgVideo = document.getElementById('banner-vid')
+    setBgVideo(document.getElementById('banner-vid'))
+    // console.log("bgVideo", bgVideo)
+    // console.log("bgVideo readyState", bgVideo.readyState)
+    // if (bgVideo.readyState === 4) {
+    //   setIsLoaded(true)
+    // }
+    // console.log(isLoaded)
+  }, [])
+
+  bgVideo.readyState === 4 ? setTimeout(() => {
     enableBodyScroll(document)
   }, 800) : disableBodyScroll(document)
 
@@ -109,7 +115,7 @@ export const Banner = () => {
         id="banner-vid"
         src={bannerVid}
       />
-      <div className={isLoaded ? "removeLoadingScreen" : "loadingScreen"}>
+      <div className={bgVideo.readyState === 4 ? "removeLoadingScreen" : "loadingScreen"}>
           <img className src={logo} alt="Logo" />
           <p>Loading...</p>
       </div>
