@@ -7,7 +7,7 @@ import slushLogo from "../assets/img/works/slush.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 import Carousel from "react-multi-carousel"
-import "react-multi-carousel/lib/styles.css"
+// import "react-multi-carousel/lib/styles.css"
 
 export const Works = () => {
   const works = [
@@ -81,7 +81,10 @@ export const Works = () => {
           <Col>
             <Carousel
               responsive={responsive}
-              infinite={true}
+              infinite={false}
+              arrows={true}
+              // showDots={true}
+              slidesToSlide={1}
               className="works-slider"
             >
               {works.map((work) => {

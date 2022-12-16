@@ -586,6 +586,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .study {
   margin-bottom: 3rem;
+  transition: transform .5s;
+}
+@media (min-width:600px) {
+  .study:hover {
+    transform: scale(1.1);
+  }
+  .study:hover > h4 {
+    background: linear-gradient(90.21deg, #aa367ccb -5.91%, #492fbdd0 90.58%);
+  }
 }
 .studies {
   background-color: #12121200;
@@ -609,7 +618,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @keyframes scale_up_down {
   0% {scale: 1;}
-  50% {scale: 0.95;}
+  50% {scale: 1.1;}
   0% {scale: 1;}
 }
 

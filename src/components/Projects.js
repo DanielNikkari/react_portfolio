@@ -8,6 +8,7 @@ import towerDefenseIcon from "../assets/img/projects/tower-defense-icon3.png"
 import quizzerIcon from "../assets/img/projects/quizzer-icon3.png"
 import portfolioIcon from "../assets/img/projects/portfolio-project.png"
 import urlShortenerIcon from "../assets/img/projects/url-shortener-icon.png"
+import treeHuggerIcon from "../assets/img/projects/treehugger2.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 
@@ -19,6 +20,12 @@ export const Projects = () => {
         "This portfolio was created utilizing React.js",
       imgUrl: portfolioIcon,
       url: "",
+    },
+    {
+      title: "TreeHugger, React, Node.js Express, and MongoDB",
+      description: "Web application for manual data entry created as part of the course User Interface Construction. Front-end created on React and back-end on Node.js Express, and utilizing MongoDB as database.",
+      imgUrl: treeHuggerIcon,
+      url: "https://github.com/DanielNikkari/tree_app_group_12",
     },
     {
       title: "Qu?zzer, JavaScript Deno Oak",
