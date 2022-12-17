@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.119b065a.css",
-    "main.js": "/react_portfolio/static/js/main.abe88873.js",
+    "main.js": "/react_portfolio/static/js/main.a701e0c3.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -15,6 +15,7 @@
     "static/media/tower-defense-icon3.png": "/react_portfolio/static/media/tower-defense-icon3.44957ae03eda9383e897.png",
     "static/media/plane-warfare-icon4.png": "/react_portfolio/static/media/plane-warfare-icon4.9226397bc87408d8efe9.png",
     "static/media/react-icon2.png": "/react_portfolio/static/media/react-icon2.5f861980382dbf796702.png",
+    "static/media/lil-astronaut-footer-xmas.png": "/react_portfolio/static/media/lil-astronaut-footer-xmas.0deea22280de15b0de4b.png",
     "static/media/sql-icon.png": "/react_portfolio/static/media/sql-icon.cd3561f1f5be99ffd8b7.png",
     "static/media/Python-icon2.png": "/react_portfolio/static/media/Python-icon2.7437aadfb556372cd98a.png",
     "static/media/html-css-icon2.png": "/react_portfolio/static/media/html-css-icon2.a77633ab51cd088be39a.png",
@@ -24,7 +25,6 @@
     "static/media/Cpp-icon2.png": "/react_portfolio/static/media/Cpp-icon2.a54cdfe3a47779476546.png",
     "static/media/CentraNo2-Book.ttf": "/react_portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/welcome-message-6.png": "/react_portfolio/static/media/welcome-message-6.f78b3381df1a3fd65832.png",
-    "static/media/lil-astronaut-footer.png": "/react_portfolio/static/media/lil-astronaut-footer.b6b357337c90059e1a78.png",
     "static/media/git-icons.png": "/react_portfolio/static/media/git-icons.49589633437f16dc88b2.png",
     "static/media/stakeholder-management.png": "/react_portfolio/static/media/stakeholder-management.8ea37e76f9e020d037bd.png",
     "static/media/JavaScript-icon2.png": "/react_portfolio/static/media/JavaScript-icon2.980c602c1ee61aaf92b7.png",
@@ -44,11 +44,11 @@
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
     "main.119b065a.css.map": "/react_portfolio/static/css/main.119b065a.css.map",
-    "main.abe88873.js.map": "/react_portfolio/static/js/main.abe88873.js.map",
+    "main.a701e0c3.js.map": "/react_portfolio/static/js/main.a701e0c3.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119b065a.css",
-    "static/js/main.abe88873.js"
+    "static/js/main.a701e0c3.js"
   ]
 }
