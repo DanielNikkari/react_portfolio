@@ -14,6 +14,7 @@ import microsoftIcon from "../assets/img/icons/microsoft-icon2.png"
 import powerbiIcon from "../assets/img/icons/power-bi-icon.png"
 import gitIcons from "../assets/img/icons/git-icons.png"
 import bgColor from "../assets/img/background/bg-color1.png"
+import dockerIcon from "../assets/img/icons/docker-icon.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 
@@ -82,7 +83,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={reactIcon} alt="image" />
-                  <h5>React.js</h5>
+                  <h5>React</h5>
                 </div>
                 <div className="item">
                   <img src={htmlCssIcon} alt="image" />
@@ -91,6 +92,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={sqlIcon} alt="image" />
                   <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={dockerIcon} alt="" />
+                  <h5>Docker</h5>
                 </div>
                 <div className="item">
                   <img src={cppIcon} alt="image" />
