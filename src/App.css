@@ -561,6 +561,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   pointer-events: none;
 }
 
+@media (max-width: 600px) {
+  .proj-imgbx.show-mobile::before {
+    height: 100%;
+  }
+  .proj-imgbx.show-mobile .proj-txtx {
+    top: 50%;
+    opacity: 1;
+  }
+}
+
 /************ Studies Styling ************/
 .studies h2 {
 	font-size: 45px;

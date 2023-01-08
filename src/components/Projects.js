@@ -10,7 +10,6 @@ import portfolioIcon from "../assets/img/projects/portfolio-project2.png"
 import urlShortenerIcon from "../assets/img/projects/url-shortener-icon.png"
 import treeHuggerIcon from "../assets/img/projects/treehugger3.png"
 import "animate.css"
-import TrackVisibility from "react-on-screen"
 
 export const Projects = () => {
   const projects = [
