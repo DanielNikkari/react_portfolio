@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 import goodbyeMessage from "../assets/img/goodbye-message.png"
-import lilAstronaut from "../assets/img/lil-astronaut-footer-xmas.png"
+import lilAstronaut from "../assets/img/lil-astronaut-footer.png"
 
 export const Footer = () => {
   return (
