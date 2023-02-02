@@ -9,6 +9,7 @@ import quizzerIcon from "../assets/img/projects/quizzer-icon3.png"
 import portfolioIcon from "../assets/img/projects/portfolio-project2.png"
 import urlShortenerIcon from "../assets/img/projects/url-shortener-icon.png"
 import treeHuggerIcon from "../assets/img/projects/treehugger3.png"
+import mobileplayreplica from "../assets/img/projects/MobilePay-Replica.png"
 import "animate.css"
 
 export const Projects = () => {
@@ -72,6 +73,15 @@ export const Projects = () => {
     },
   ]
 
+  const other = [
+    {
+      title: "Figma replica of MobilePay",
+      description: "The replica has log in, sending money, and requesting money features implemented",
+      imgUrl: mobileplayreplica,
+      url: "https://www.figma.com/proto/vwUeBe4O78J1ZZdnoYE73j/A5-MobilePay-Replica?page-id=0%3A1&node-id=1%3A2&viewport=216%2C338%2C0.19&scaling=scale-down&starting-point-node-id=94%3A435"
+    },
+  ]
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -129,7 +139,19 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  For now this section is empty, come back later! :)
+                  <Row>
+                    {other.map((other, index) => {
+                      return (
+                        <ProjectCard
+                          key={index}
+                          title={other.title}
+                          description={other.description}
+                          imgUrl={other.imgUrl}
+                          url={other.url}
+                        />
+                      )
+                    })}
+                  </Row>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>

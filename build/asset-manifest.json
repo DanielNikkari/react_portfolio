@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.a9f9ffeb.css",
-    "main.js": "/react_portfolio/static/js/main.1b9b1fae.js",
+    "main.js": "/react_portfolio/static/js/main.6bf86491.js",
     "static/js/787.a2cb61a6.chunk.js": "/react_portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/banner-video2.mp4": "/react_portfolio/static/media/banner-video2.4a6cf734777ef9c117a4.mp4",
     "static/media/bg-color1.png": "/react_portfolio/static/media/bg-color1.bea361cfef80fefc2d1e.png",
@@ -17,6 +17,7 @@
     "static/media/react-icon2.png": "/react_portfolio/static/media/react-icon2.5f861980382dbf796702.png",
     "static/media/sql-icon.png": "/react_portfolio/static/media/sql-icon.cd3561f1f5be99ffd8b7.png",
     "static/media/Python-icon2.png": "/react_portfolio/static/media/Python-icon2.7437aadfb556372cd98a.png",
+    "static/media/MobilePay-Replica.png": "/react_portfolio/static/media/MobilePay-Replica.05e1502628d71e3c3f4d.png",
     "static/media/html-css-icon2.png": "/react_portfolio/static/media/html-css-icon2.a77633ab51cd088be39a.png",
     "static/media/docker-icon.png": "/react_portfolio/static/media/docker-icon.d19c93f52f2beb1c1a30.png",
     "static/media/y2-icon3.png": "/react_portfolio/static/media/y2-icon3.661e5e76ef4f560ea792.png",
@@ -45,11 +46,11 @@
     "static/media/revicons.woff": "/react_portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/react_portfolio/index.html",
     "main.a9f9ffeb.css.map": "/react_portfolio/static/css/main.a9f9ffeb.css.map",
-    "main.1b9b1fae.js.map": "/react_portfolio/static/js/main.1b9b1fae.js.map",
+    "main.6bf86491.js.map": "/react_portfolio/static/js/main.6bf86491.js.map",
     "787.a2cb61a6.chunk.js.map": "/react_portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9f9ffeb.css",
-    "static/js/main.1b9b1fae.js"
+    "static/js/main.6bf86491.js"
   ]
 }
