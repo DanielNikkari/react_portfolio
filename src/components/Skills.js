@@ -15,6 +15,7 @@ import powerbiIcon from "../assets/img/icons/power-bi-icon.png"
 import gitIcons from "../assets/img/icons/git-icons.png"
 import bgColor from "../assets/img/background/bg-color1.png"
 import dockerIcon from "../assets/img/icons/docker-icon.png"
+import figmaIcon from "../assets/img/icons/figma-icon.png"
 import "animate.css"
 import TrackVisibility from "react-on-screen"
 
@@ -66,14 +67,6 @@ export const Skills = () => {
                 className="skills-slider"
               >
                 <div className="item">
-                  <img src={stakeholderManagementIcon} alt="image" />
-                  <h5>Stakeholder Management</h5>
-                </div>
-                <div className="item">
-                  <img src={stakeholderMappingIcon} alt="image" />
-                  <h5>Stakeholder Mapping</h5>
-                </div>
-                <div className="item">
                   <img src={gitIcons} alt="image" />
                   <h5>Git</h5>
                 </div>
@@ -106,6 +99,10 @@ export const Skills = () => {
                   <h5>Python</h5>
                 </div>
                 <div className="item">
+                    <img src={figmaIcon} alt="figma icon" />
+                    <h5>Figma</h5>
+                </div>
+                <div className="item">
                   <img src={googleIcon} alt="image" />
                   <h5>Google Workspace</h5>
                 </div>
@@ -116,6 +113,14 @@ export const Skills = () => {
                 <div className="item">
                   <img src={powerbiIcon} alt="image" />
                   <h5>Power BI</h5>
+                </div>
+                <div className="item">
+                  <img src={stakeholderManagementIcon} alt="image" />
+                  <h5>Stakeholder Management</h5>
+                </div>
+                <div className="item">
+                  <img src={stakeholderMappingIcon} alt="image" />
+                  <h5>Stakeholder Mapping</h5>
                 </div>
               </Carousel>
             </div>
